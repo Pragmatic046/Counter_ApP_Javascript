@@ -17,6 +17,16 @@ btns.forEach(function (btn) {
         else {
             count = 0; //Reset to zero
         }
+        if(count > 0){
+            digits.style.color = 'dodgerblue'
+        }
+        if(count < 0){
+            digits.style.color = 'red'
+        }
+        if(count === 0){
+            digits.style.color = 'black'
+        }
+
         digits.textContent = count; // Change the content of '.digits' element
     })
 })

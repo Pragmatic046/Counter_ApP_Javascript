@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  padding: 5em;
+  background-image: linear-gradient(to bottom, rgb(204, 203, 139), rgb(137, 203, 163), white);
+  background-attachment: fixed;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container {
+  width: 70vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1 {
+  font-family: "", "segoe ui";
+  font-weight: 900;
+}
+.digits {
+  font-size: 50px;
+  font-family: "", "segoe ui";
+  font-weight: 900;
+  margin: 1em 0;
+}
+.btn-container {
+  display: flex;
+  justify-content: space-around;
+  display: flex;
+  width: 50%;
+  margin-top: 2em;
+}
+.btn {
+  width: 7em;
+  height: 3em;
+  padding:10px;
+  margin: 0 5px;
+  font-size: 15px;
+  font-weight: 700;
+  background-image: linear-gradient(to bottom, rgb(58, 58, 58), rgb(134, 134, 134)) ;
+  color: white;
+  outline: transparent;
+  border: transparent;
+  border-radius: 7px;
+  transition: 400ms;
+}
+.btn:hover {
+  background-image: linear-gradient(to bottom,  rgb(134, 134, 134),rgb(58, 58, 58));
+  color: white;
+  border: 1px solid white;
+  
+}
+.btn:focus {
+  outline: 1px solid black;
+}
+
+
